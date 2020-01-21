@@ -1,1 +1,3 @@
-# Repository contains the website to display our capstone findings
+# Maple Syrup Climate Change
+
+A website to display our findings
