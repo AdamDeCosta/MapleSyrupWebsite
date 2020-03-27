@@ -9,3 +9,4 @@ A website to display our findings
 4. Run `npm install` in the terminal window
 5. After completion run `npm run start`
 6. Open a browser window to `localhost:8000`
+ 
