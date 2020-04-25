@@ -3,13 +3,15 @@ import { useEffect, useState } from "react";
 import Layout from "../src/components/Layout";
 import Section from "../src/components/Section";
 import colors from "../src/utils/colors";
-import Container from "@material-ui/core/Container";
 
 // Needed to make sure font styles load
 import "../src/utils/typography";
 
 import dynamic from "next/dynamic";
 const TableauReport = dynamic(() => import("tableau-react-embed"), {
+  ssr: false,
+});
+const ImgContainer = dynamic(() => import("../src/components/ImgContainer"), {
   ssr: false,
 });
 import useWindowSize from "../src/utils/useWindowSize";
@@ -116,24 +118,24 @@ const Home = () => {
             Production and Sales. Clusters 2 and 3 seem to have similar values
             across the board, except for Operations with Taps.
           </p>
-          <div style={{ display: "flex", overflow: "auto", maxWidth: dataWidth }}>
+          <ImgContainer width={dataWidth}>
             <img
               style={{ minHeight: 110, minWidth: 840 }}
               src="/cluster_desc.png"
             />
-          </div>
+          </ImgContainer>
         </Section>
         <Section>
           <h2>Correlation</h2>
           <p>
             In an attempt to discover which features affected the clustering the
             most, the authors decided to examine which features were more
-            correlated with the cluster label. The Correlation Matrix
-            describes how correlated each feature is with eachother. As
-            expected, all of the maple syrup features are correlated to each
-            other, and are also positively correlated to the cluster label.
-            However, there are some interesting ideas to explore regarding
-            correlation between the environmental factors and the clusters.
+            correlated with the cluster label. The Correlation Matrix describes
+            how correlated each feature is with eachother. As expected, all of
+            the maple syrup features are correlated to each other, and are also
+            positively correlated to the cluster label. However, there are some
+            interesting ideas to explore regarding correlation between the
+            environmental factors and the clusters.
           </p>
           <TableauReport
             options={{ height: 768, width: dataWidth }}
