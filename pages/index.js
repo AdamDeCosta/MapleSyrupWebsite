@@ -87,13 +87,16 @@ const Home = () => {
             url="https://public.tableau.com/views/MapleSyrupVisualizationState/Sheet1?:display_count=y&publish=yes&:origin=viz_share_link"
           />
           <p>
-            According to a report put out by the USDA’s New England Agricultural
-            Statistics (Keough, 2012), “[the] season ended abruptly with two
-            weeks of 60+ degree temperatures. The hot week in March ended our
-            season. Sap flow after that was good but syrup produced from it was
-            unmarketable.” A single week of high temperatures signalled an end
-            to that year’s sugaring season, and many sugarmakers had their
-            season hauls significantly cut in half.
+            According to a report put out by the{" "}
+            <a href="https://www.uvm.edu/sites/default/files/Agriculture/maple-nass-2012.pdf">
+              USDA’s New England Agricultural Statistics
+            </a>
+            , “[the] season ended abruptly with two weeks of 60+ degree
+            temperatures. The hot week in March ended our season. Sap flow after
+            that was good but syrup produced from it was unmarketable.” A single
+            week of high temperatures signalled an end to that year’s sugaring
+            season, and many sugarmakers had their season hauls significantly
+            cut in half.
           </p>
         </Section>
         <Section>
