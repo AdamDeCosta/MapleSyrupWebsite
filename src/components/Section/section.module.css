@@ -1,0 +1,36 @@
+
+.section {
+    display: flex;
+    flex-direction: row;
+    padding: 2em 1.5em 0 1.5em;
+    width: 100vw;
+    justify-content: center;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    width: inherit;
+}
+
+@media only screen and (min-width: 600px) {
+    .section {
+        padding: 4em 4em 0em 4em;
+    }
+
+    .description {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .section {
+        padding: 6em 6em 0em 6em;
+    }
+    .description {
+        width: 50vw;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}

@@ -1,0 +1,22 @@
+.introduction {
+    background-color: #B3654D;
+    background-image: url("/rings.svg");
+    padding-bottom: 0em;
+}
+
+.image_container {
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (min-width: 600px) {
+    .introduction {
+        padding-bottom: 2em;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .introduction {
+        padding-bottom: 4em;
+    }
+}
