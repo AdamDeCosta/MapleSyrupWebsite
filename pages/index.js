@@ -108,7 +108,10 @@ const Home = () => {
             enough. Cluster 0 has 7 data points, Cluster 1 has 2, Cluster 2 has
             32, Cluster 3 has 11, and Cluster 4 has 18.
           </p>
-          <img src="/clusters.svg" />
+          <img
+            src="/clusters.svg"
+            alt="A visual representation of the results of classifying the cleaned data into clusters using the KMeans algorithm."
+          />
           <p>
             The table below shows the average values of the five maple
             syrup-related features in the dataset. Clusters 0 and 1 contain most
@@ -125,6 +128,7 @@ const Home = () => {
             <img
               style={{ minHeight: 110, minWidth: 840 }}
               src="/cluster_desc.png"
+              alt="A table containing the average values of the five maple syrup-related features in the dataset."
             />
           </ImgContainer>
         </Section>
