@@ -2991,9 +2991,9 @@ lodash.keys@^3.1.2:
     lodash.isarray "^3.0.0"
 
 lodash@^4.13.1, lodash@^4.17.11, lodash@^4.17.13:
-  version "4.17.15"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
-  integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
+  version "4.17.21"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
+  integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
 
 loose-envify@^1.0.0, loose-envify@^1.1.0, loose-envify@^1.4.0:
   version "1.4.0"
@@ -4298,9 +4298,10 @@ supports-color@^6.1.0:
   dependencies:
     has-flag "^3.0.0"
 
-"tableau-api@git://github.com/ilyabo/tableau-api.git":
+"tableau-api@git://github.com/ilyabo/tableau-api":
   version "2.0.0"
-  resolved "git://github.com/ilyabo/tableau-api.git#069f178bd634f77ae14e44fd32cf3fa8258f1866"
+  uid "069f178bd634f77ae14e44fd32cf3fa8258f1866"
+  resolved "git://github.com/ilyabo/tableau-api#069f178bd634f77ae14e44fd32cf3fa8258f1866"
 
 tableau-react-embed@^1.1.0:
   version "1.1.0"
